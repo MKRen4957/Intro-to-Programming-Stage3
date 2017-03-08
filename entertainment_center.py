@@ -11,9 +11,7 @@
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie()
+the_big_short = media.Movie("The Big Short", "WS",  "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Big_Short_teaser_poster.jpg", "https://youtu.be/O1X0KDdS5Bw")
 
-avatar = media.Movie()
-
-movies = [toy_story, avatar]
+movies = [the_big_short]
 fresh_tomatoes.open_movies_page(movies)
